@@ -1,5 +1,5 @@
-DataStructure DAT037
-=============
+#Data structures DAT037
+#------------------------------------------
 
 Link to course site: http://www.cse.chalmers.se/edu/year/2016/course/DAT037_Datastrukturer/
 
