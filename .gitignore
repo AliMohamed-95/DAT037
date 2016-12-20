@@ -1,4 +1,4 @@
 #Keep this root directory cleen.
 *
-!readme.txt
+!readme.md
 !.gitignore
