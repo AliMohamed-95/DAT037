@@ -1,7 +1,5 @@
 #Data structures DAT037
-#------------------------------------------
-
-Link to course site: http://www.cse.chalmers.se/edu/year/2016/course/DAT037_Datastrukturer/
+[Link to course site.] (http://www.cse.chalmers.se/edu/year/2016/course/DAT037_Datastrukturer/)
 
 This is a git repository containing all three lab assignments.
 
