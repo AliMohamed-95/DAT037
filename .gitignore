@@ -1,1 +1,4 @@
-
+#Keep this root directory cleen.
+*.*
+!readme.txt
+!.gitignore
