@@ -1,1 +1,5 @@
+<<<<<<< HEAD
 ECHO is on1.
+=======
+ECHO
+>>>>>>> 8bbab7ffaf002c2fa175c991e1671ffe0dcd2106
