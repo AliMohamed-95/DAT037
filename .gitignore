@@ -3,5 +3,5 @@
 !readme.md
 !.gitignore
 !Assignment(1)/*.java
-!Assignment(2)
-!Assignment(3)
+!Assignment(2)/*.java
+!Assignment(3)/*.java
