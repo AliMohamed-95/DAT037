@@ -3,8 +3,7 @@
 
 public class Bud {
 	
-	private String namn,
-				   transaktion;
+	private String namn,transaktion;
 	private int    pris;
 	/**
 	 * a method to register a new bid.
