@@ -17,7 +17,6 @@ private Comparator<? super E> c;
 	 * @param a
 	 */
 	public void insert(E a){
-
 		heap.add(a);
 		bubbelUp(heap.size()-1);
 		
@@ -89,8 +88,7 @@ private Comparator<? super E> c;
 	 */
 	public int getParrent(int k){
 		if(k%2==0){
-			 return ((k-2)/2);
-		}
+			return ((k-2)/2);
 		else
 			return ((k-1)/2);	
 	}
@@ -119,14 +117,12 @@ private Comparator<? super E> c;
 				break;
 			}
 	
-				else {
+			else{
 				temp = minOfChild(index);
-				
 				replace(index,minOfChild(index));
 				index = temp;
 			}
-		}
-			
+		}		
 	}
 	
 	/**
@@ -151,12 +147,8 @@ private Comparator<? super E> c;
 		if( q>heap.size()-1 || w>heap.size()-1){
 			throw new IllegalArgumentException("provided index dosen't exsist");
 		}
-		//System.out.println(q);
 		E temp = heap.get(w);
 		heap.set(w, heap.get(q));
 		heap.set(q, temp);
 	}
-	
-
-	
 }
