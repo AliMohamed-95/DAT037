@@ -1,0 +1,9 @@
+#Keep this root directory cleen.
+*.*
+!readme.md
+!.gitignore
+!Complexity Analysis/*.pdf
+!Assignment(*)/*.java
+!Assignment(*)/*.jar
+
+
