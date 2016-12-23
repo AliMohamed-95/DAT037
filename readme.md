@@ -73,5 +73,20 @@ The top-level class containing main should be called Lab1B. It should not be gen
 
 As in part A, if your program is invoked using the command java Lab1B <element> <file>, where <file> is a file containing a sorted list of integers separated by spaces, and <element> is an integer, then the program should print true on standard output if <element> is in <file>, and false otherwise.
 
+### Bianry heap
+
+In one exchange to trade with shares of large companies. You can do this via the Internet if you have a bank service for stock trading. You can specify where if you want to buy or sell a certain share classes and indicate the price they are willing to pay.
+
+Suppose you want to buy shares in Ericsson for SEK 70 each. Your bid will then be compared with the offer price, ie the lowest price a seller presently is willing to accept for its Ericsson shares. If the selling price is 70 SEK or less accepted your offer and you get to buy the shares for 70 SEK. They call such a completion of the deal a "completed". (Of course it is unwise to offer the lowest selling price, but also such bids have to be handled.) If the sale price is higher than SEK 70 will be added to your bid in Ericsson's "order book" where all uncompleted bids recorded. If the latter comes in a new seller who is willing to sell for 70 SEK will your purchase be carried out when instead.
+
+#### Task
+
+Your task is to implement a program for stock trading as outlined above. For simplicity, you only need to deal with one class of shares and all bids refer only to one share at a time. However, there are several different sellers and buyers. The bids shall be specified in whole crowns. (It is of course easy to write a more general program that handles more classes of shares, where any number of shares can be handled in an order.)
+
+The order book consists of two priority queues: one for the seller and the buyer. In the priority queue for sellers means lower price higher priority. In the priority queue of buyers, by contrast, higher price higher priority.
+
+
+
+
 
 
