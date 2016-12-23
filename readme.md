@@ -1,7 +1,7 @@
 Data structures DAT037
 ===================
 
-## Table of Contents
+### Table of Contents
 * [Introduction](#example)
 * [Assignments](#example2)
 	* 1.[Binary serach](#binary-serach)
