@@ -53,14 +53,16 @@ B. Generics: Implementing a set of elements of arbitrary type using a sorted arr
 
 Your second task is to implement sets with elements of an arbitrary type E. You should implement the generic Java interface
 
-`public interface MySet<E> {
+```
+public interface MySet<E> {
     public boolean member(E element);
 }
 using a generic class:
 
 public class MySortedArray<E extends Comparable<? super E>> implements MySet<E> {
     ...
-}`
+}
+```
 The member method must be implemented using binary search.
 
 In order to sort elements of type E we must have a way to compare them. You should use the elements' "natural ordering", i.e. the one provided by the Comparable interface. (The somewhat cryptic declaration  <E extends Comparable<? super E>> is explained in the course text book: Section 1.5.5 in the second edition, and Section 1.5.6 in the third edition.)
