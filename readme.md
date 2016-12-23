@@ -1,4 +1,11 @@
-#Data structures DAT037
+Data structures DAT037
+===================
+
+## Table of Contents
+* [Example](#example)
+* [Example2](#example2)
+* [gggg](#third-example)
+
 
 A detailed explanation of the labs can be found on the course [site](http://www.cse.chalmers.se/edu/year/2016/course/DAT037_Datastrukturer/laborationer.html)
 
