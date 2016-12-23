@@ -21,7 +21,7 @@ Programming assignment 1: Binary search
 
 The purpose of this assignment is to practice Java programming with interfaces and generics, and to get acquainted with a simple but useful algorithm.
 
-A. Implementing a set of integers using a sorted array
+#### A. Implementing a set of integers using a sorted array
 
 A simple way to implement a set of elements is to use a sorted array containing those elements. In this case one can use binary search to efficiently decide whether a given element is in the set.
 
@@ -49,7 +49,7 @@ You can use the Scanner class to read the file. You are allowed to use an ArrayL
 
 The MyIntSet interface only contains a member method, so there is no requirement to implement an add method. A simpler solution is to just pass an array containing the elements read from the file to the constructor of the  MySortedIntArray class. However, you are allowed to implement an add method, in which case you should use a dynamic array.
 
-B. Generics: Implementing a set of elements of arbitrary type using a sorted array
+#### B. Generics: Implementing a set of elements of arbitrary type using a sorted array
 
 Your second task is to implement sets with elements of an arbitrary type E. You should implement the generic Java interface
 
