@@ -26,7 +26,7 @@ A. Implementing a set of integers using a sorted array
 A simple way to implement a set of elements is to use a sorted array containing those elements. In this case one can use binary search to efficiently decide whether a given element is in the set.
 
 Your first task is to implement a set of integers as a sorted array of integers. You should implement the interface
-
+`
   public interface MyIntSet {
       public boolean member(int element);
   }
@@ -34,7 +34,7 @@ using a class:
 
   public class MySortedIntArray implements MyIntSet {
       ...
-  }
+  }`
 The member method must be implemented using binary search.
 
 Your top-level program should be called Lab1A (i.e. there should be a class Lab1A implementing the main method). This program should read a file containing a sorted list of integers separated by spaces, use those numbers to create an instance of MySortedIntArray, and use the member method to determine if a given number is present in the file. If your program is invoked using the command java Lab1A <element> <file>, then the program should print true on standard output if <element> is in <file>, and false otherwise.
