@@ -28,11 +28,16 @@ A simple way to implement a set of elements is to use a sorted array containing 
 Your first task is to implement a set of integers as a sorted array of integers. You should implement the interface
 
 `public interface MyIntSet {
+
    public boolean member(int element);
+   
   }
 using a class:
+
    public class MySortedIntArray implements MyIntSet {
+   
       ...
+      
   }`
 The member method must be implemented using binary search.
 
