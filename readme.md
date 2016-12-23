@@ -102,7 +102,14 @@ Your task is to implement a service similar Västtrafiks travel planner. Your pr
 	- 3. It should be possible to implement other graph algorithms without changing the graph representation.
 	- 4. Graph data structure must not contain any fields that are only used for Dijkstra's algorithm.
 	- 5. It must be possible to use Dijkstra's algorithm in other programs.
+	- 6. The main program will be separated from the implementation of the graphs and the Dijkstra's algorithm. Printing and any graphics are handled in the main program.
 	
+#### Help package 
+To facilitate the work, you get a package, Lab3Help.jar (documentation), with features to load line information and interface Path. Do not unpack the jar file, but put it in your CLASSPATH.
+
+Stop Files can be loaded with the read method tops in the class Lab3File. The method gives readings tops a list that contains elements of type BStop. These elements represent stops and contains the names and coordinates.
+
+Line Files can be loaded with the read lines, also in the class Lab3File, the result is a list of elements of type BLineTable. Each BLineTable represents information about a line and includes line numbers and the stops that are included in the line. These stops are represented by objects / values of type BLineStop, which contain hold name and the time it takes to get to the bus stop from the previous stop.
 
 
 
