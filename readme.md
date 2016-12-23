@@ -13,13 +13,7 @@ Introduction
 
 This course provides an introduction to mathematical modeling of computational problems. It covers the common algorithms, algorithmic paradigms, and data structures used to solve these problems. The course emphasizes the relationship between algorithms and programming, and introduces basic performance measures and analysis techniques for these problems.
 
+Assignments
+===================
 
-This is a git repository containing all three lab assignments.
 
-* Assignment(1) -> Binary search
-* Assignment(2) -> Bubblesort & Binary heap.
-* Assignment(3) -> Dijkstra
-
-The source code is written by
-
-		Ali Mohamed & Ali Mohamud
