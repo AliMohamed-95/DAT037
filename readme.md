@@ -1,5 +1,5 @@
 Data structures DAT037
-===================
+---
 
 ### Table of Contents
 * [Introduction](#introduction)
