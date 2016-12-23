@@ -15,7 +15,7 @@ This course provides an introduction to mathematical modeling of computational p
 ## Assignments
 The course consists of three labs addressing different data structures.
 
-### Binary heap
+### Binary serach
 
 Programming assignment 1: Binary search
 
