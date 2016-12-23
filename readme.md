@@ -2,7 +2,7 @@ Data structures DAT037
 ===================
 
 ### Table of Contents
-* [Introduction](#example)
+* [Introduction](#introduction)
 * [Assignments](#example2)
 	* 1.[Binary serach](#binary-serach)
 	* 2.[Binary heap & Bubble sort](#binary-heap)
