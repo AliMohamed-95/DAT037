@@ -4,25 +4,25 @@ import java.util.Comparator;
 
 public class ComparatorBuy implements Comparator<Bud> {
 	
-	private String namno1,
-				   namno2;
-	private int    priso1,
-				   priso2;
+	private String name1,
+				   name2;
+	private int    price1,
+				   price2;
 	@Override
 	/**
-	 * this method compares two object of bud type and returns -1,0,1 depending 
-	 * on how the two bids relate to each other
+	 * This method compares two object of bud type and returns -1,0,1 depending 
+	 * on how the two bids relate to each other.
 	 */
 	public int compare(Bud o1, Bud o2){
-		namno1 = o1.getName();
-		priso1 = o1.getPris();
-		namno2 = o2.getName();
-		priso2 = o2.getPris();
+		name1 = o1.getName();
+		price1 = o1.getPris();
+		name2 = o2.getName();
+		price2 = o2.getPris();
 		
-		if((namno1.compareTo(namno2)==0) && (priso1==priso2)){
+		if((name1.compareTo(name2)==0) && (price1==price2)){
 			return 0;
 		}
-		else if(priso1>=priso2){
+		else if(price1>=price2){
 			return 1;
 		}
 		else{

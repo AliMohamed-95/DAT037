@@ -3,61 +3,60 @@
 
 public class Bud {
 	
-	private String namn,
-				   transaktion;
-	private int    pris;
+	private String name, transaction;
+	private int    price;
+	
 	/**
-	 * a method to register a new bid.
-	 * @param q
-	 * @param w
-	 * @param e
+	 * a constructor to register a new bid.
+	 * @param name
+	 * @param transaction
+	 * @param price
 	 */
-	public Bud(String q, String w, int e){
-		namn= q;
-		transaktion = w;
-		pris = e;
+	
+	public Bud(String name, String transaction, int price){
+		this.name= name;
+		this.transaction = transaction;
+		this.price = price;
 		
 	}
 	
+
 	/**
-	 * a method to register if a buyer or seller change their bid.
-	 * @param q
-	 * @param w
-	 * @param e
-	 * @param r
+	 * A method that returns the buyer or sellers name
+	 * @return String
 	 */
-	public Bud(String q, String w, int e, int r){
-		namn = q;
-		transaktion = w;
-		pris = e;
-	}
-	/**
-	 * a method that returns the buyer or sellers name
-	 * @return
-	 */
+	
 	public String getName(){
-		return namn;
+		return name;
 	}
+	
 	/**
 	 * 
-	 * @return
+	 * @return string
 	 **/
+	
 	public String getTransaktions(){
-		return transaktion;
+		return transaction;
 	}
+	
 	/**
-	 * a method that returns the buyer or sellers price
-	 * @return
+	 * a method that returns the price.
+	 * @return int
 	 */
+	
 	public int getPris(){
-		return pris;
+		return price;
 	}
+	
 	/**
-	 * a method that returns the buyer or sellers changed price.
-	 * @param q
+	 * a method that sets a new price.
+	 * @param newPrice
+	 * @return void
+	 * 
 	 */
-	public void NyttPris(int q){
-		pris = q;
+	
+	public void setNewPrice(int newPrice){
+		price = newPrice;
 	}
 	
 

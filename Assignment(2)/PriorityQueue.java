@@ -19,8 +19,7 @@ private Comparator<? super E> c;
 	public void insert(E a){
 
 		heap.add(a);
-		bubbelUp(heap.size()-1);
-		
+		bubbelUp(heap.size()-1);	
 	}
 	
 	/**
@@ -30,13 +29,17 @@ private Comparator<? super E> c;
 	 */
 	public int findValue(E e){
 		for(int i=0; i<heap.size();i++){
+			
 			if(c.compare(e, heap.get(i))==0)
+				
 				return i;
 		}
-			return -1;
+		
+		return -1;
 	}
 	
 	public E getMin(){
+		
 		return heap.get(0);
 	}
 	
@@ -47,16 +50,21 @@ private Comparator<? super E> c;
 	 */
 	
 	public int minOfChild(int k){
+		
 		if(getLeftChild(k)==-1){
+			
 			return -1;
 		}
 		else if(getRightChild(k)==-1){
+			
 			return getLeftChild(k);
 		}
 		else if(c.compare(heap.get(getLeftChild(k)),heap.get(getRightChild(k)))<=0){
+			
 			return getLeftChild(k);
 		}
 		else{
+			
 			return getRightChild(k);
 		}
 	}
@@ -66,7 +74,9 @@ private Comparator<? super E> c;
 	 * @return
 	 */
 	public int getLeftChild(int q){
+		
 		if (((2*q)+1) > (heap.size() -1)){
+			
 			return -1;
 		}
 		return ((2*q)+1);
@@ -77,7 +87,9 @@ private Comparator<? super E> c;
 	 * @return
 	 */
 	public int getRightChild(int q){
+		
 		if (((2*q)+2) > (heap.size()-1)){
+			
 			return -1;
 		}
 		return ((2*q)+2);
@@ -88,10 +100,11 @@ private Comparator<? super E> c;
 	 * @return
 	 */
 	public int getParrent(int k){
-		if(k%2==0){
+		if(k%2==0)
+			
 			 return ((k-2)/2);
-		}
 		else
+			
 			return ((k-1)/2);	
 	}
 	/**
@@ -100,7 +113,8 @@ private Comparator<? super E> c;
 	 */
 	public void bubbelUp(int k){
 		while((getParrent(k)!=-1 && k!=0 && 
-				(c.compare(heap.get(k), heap.get(getParrent(k))))<=0)){				
+		(c.compare(heap.get(k), heap.get(getParrent(k))))<=0)){		
+			
 				replace(getParrent(k),k);
 				k = getParrent(k);
 		}
@@ -119,22 +133,21 @@ private Comparator<? super E> c;
 				break;
 			}
 	
-				else {
+			else {
 				temp = minOfChild(index);
-				
 				replace(index,minOfChild(index));
 				index = temp;
 			}
-		}
-			
+		}		
 	}
 	
 	/**
 	 * remove the root of the tree.
 	 */
+	
 	public void deleteMin(){
 		if(heap.size()<1){
-			throw new IllegalArgumentException("Nï¿½tt blev galet");
+			throw new IllegalArgumentException("Nått blev galet");
 		}
 		else{
 			replace(0,heap.size()-1);
@@ -148,10 +161,10 @@ private Comparator<? super E> c;
 	 * @param w
 	 */
 	public void replace (int q, int w){
-		if( q>heap.size()-1 || w>heap.size()-1){
-			throw new IllegalArgumentException("provided index dosen't exsist");
-		}
-		//System.out.println(q);
+		if( q>heap.size()-1 || w>heap.size()-1)
+			
+			throw new IllegalArgumentException("Provided index dosen't exsist");
+		
 		E temp = heap.get(w);
 		heap.set(w, heap.get(q));
 		heap.set(q, temp);
