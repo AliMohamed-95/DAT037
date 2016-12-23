@@ -73,7 +73,7 @@ The top-level class containing main should be called Lab1B. It should not be gen
 
 As in part A, if your program is invoked using the command java Lab1B <element> <file>, where <file> is a file containing a sorted list of integers separated by spaces, and <element> is an integer, then the program should print true on standard output if <element> is in <file>, and false otherwise.
 
-### Bianry heap
+### Binary heap
 
 In one exchange to trade with shares of large companies. You can do this via the Internet if you have a bank service for stock trading. You can specify where if you want to buy or sell a certain share classes and indicate the price they are willing to pay.
 
