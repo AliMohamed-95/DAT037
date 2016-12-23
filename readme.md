@@ -2,9 +2,12 @@ Data structures DAT037
 ===================
 
 ## Table of Contents
-* [Example](#example)
-* [Example2](#example2)
-* [gggg](#third-example)
+* [Introduction](#example)
+* [Assignments](#example2)
+	* 1.[Binary serach](#binary-serach)
+	* 2.[Binary heap & Bubble sort](#binary-heap)
+	* 3.[Dijkstra](#dijkstra)
+	
 
 
 A detailed explanation of the labs can be found on the course [site](http://www.cse.chalmers.se/edu/year/2016/course/DAT037_Datastrukturer/laborationer.html)
