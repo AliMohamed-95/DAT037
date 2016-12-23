@@ -96,6 +96,8 @@ Your task is to implement a service similar Västtrafiks travel planner. Your pr
 	- 2. A file lines (the file format is described below).
 	- 3. Start stop.
 	- 4. The terminus.
+* Implementation:
+	- You have to use Dijkstra's algorithm to compute the shortest path, and you must implement the algorithm itself. The algorithm must be implemented so as to have time complexity O (v + E log V) where e is the number of edges, v the number of nodes, provided that the graph is not a multi-graph, and determining similarity between the nodes labels takes O (1) . (This does not apply to all such graphs, and maybe not for your nodetiketter, but you can not ignore.) Therefore it is important that you use a sufficiently efficient priority queue:
 
 
 
