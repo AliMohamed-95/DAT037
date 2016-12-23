@@ -97,7 +97,12 @@ Your task is to implement a service similar Västtrafiks travel planner. Your pr
 	- 3. Start stop.
 	- 4. The terminus.
 * Implementation:
-	- You have to use Dijkstra's algorithm to compute the shortest path, and you must implement the algorithm itself. The algorithm must be implemented so as to have time complexity O (v + E log V) where e is the number of edges, v the number of nodes, provided that the graph is not a multi-graph, and determining similarity between the nodes labels takes O (1) . (This does not apply to all such graphs, and maybe not for your nodetiketter, but you can not ignore.) Therefore it is important that you use a sufficiently efficient priority queue:
+	- 1. You have to use Dijkstra's algorithm to compute the shortest path, and you must implement the algorithm itself. The algorithm must be implemented so as to have time complexity O (v + E log V) where e is the number of edges, v the number of nodes, provided that the graph is not a multi-graph, and determining similarity between the nodes labels takes O (1) . (This does not apply to all such graphs, and maybe not for your nodetiketter, but you can not ignore.) Therefore it is important that you use a sufficiently efficient priority queue.
+	- 2. You must define your own graph class, and you must represent graphs with adjacency lists.
+	- 3. It should be possible to implement other graph algorithms without changing the graph representation.
+	- 4. Graph data structure must not contain any fields that are only used for Dijkstra's algorithm.
+	- 5. It must be possible to use Dijkstra's algorithm in other programs.
+	
 
 
 
