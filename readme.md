@@ -92,9 +92,9 @@ Your task is to implement a service similar Västtrafiks travel planner. Your pr
 #### Requirements
 
 * A file stops (the file format is described below).
-* A file lines (the file format is described below).
-* Start stop.
-* The terminus.
+- A file lines (the file format is described below).
+- Start stop.
+- The terminus.
 
 
 
