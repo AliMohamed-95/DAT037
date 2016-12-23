@@ -92,10 +92,10 @@ Your task is to implement a service similar Västtrafiks travel planner. Your pr
 #### Requirements
 
 * The program will take four arguments:
-	- A file stops (the file format is described below).
-	- A file lines (the file format is described below).
-	- Start stop.
-	- The terminus.
+	- 1.A file stops (the file format is described below).
+	- 2.A file lines (the file format is described below).
+	- 3.Start stop.
+	- 4.The terminus.
 
 
 
